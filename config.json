@@ -1,0 +1,46 @@
+{
+  "ip": "192.168.3.5",
+  "memory": "1024",
+  "synced_folder": {
+    "host_path": "data/",
+    "guest_path": "/var/www",
+    "use_nfs": false
+  },
+  "php": {
+    "version": false
+  },
+  "mysql": {
+    "server_root_password": "root"
+  },
+  "sites": {
+    "xoops25x": {
+      "account_name": "root",
+      "account_pass": "root",
+      "account_mail": "box@example.com",
+      "site_name": "Xoops 25x",
+      "site_mail": "box@example.com"
+    },
+    "xoops26x": {
+      "account_name": "root",
+      "account_pass": "root",
+      "account_mail": "box@example.com",
+      "site_name": "Xoops 26x",
+      "site_mail": "box@example.com"
+    }
+  },
+  "git": {
+    "user": {
+      "name": "Example User",
+      "email": "username@example.com"
+    },
+    "core": {
+      "editor": "vi"
+    },
+    "color": {
+      "ui": true
+    }
+  },
+  "custom_roles": [
+    "vxd_example"
+  ]
+}

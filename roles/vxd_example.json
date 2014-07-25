@@ -1,0 +1,12 @@
+{
+  "name": "vxd_example",
+  "env_run_lists": {},
+  "default_attributes": {},
+  "override_attributes": {},
+  "json_class": "Chef::Role",
+  "run_list": [
+    "recipe[vxd_example]"
+  ],
+  "description": "Just example VXD role.",
+  "chef_type": "role"
+}
